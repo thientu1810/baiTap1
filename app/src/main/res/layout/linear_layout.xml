@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Include Toolbar Layout -->
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <!-- Left View 1 -->
+    <View
+        android:id="@+id/leftView1"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:background="#FFFF99" />
+
+    <!-- Left View 2 -->
+    <View
+        android:id="@+id/leftView2"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:background="#FFFF33" />
+
+
+
+    <View
+        android:id="@+id/rightView1"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:background="#FF9900" />
+
+        <!-- Right View 2 -->
+
+        <!-- Right View 3 -->
+    <View
+        android:id="@+id/rightView3"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:background="#66CC66" />
+
+        <View
+            android:id="@+id/rightView2"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:background="#99CCCC" />
+
+    <!-- SeekBar at the bottom -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:progressDrawable="@drawable/bg_custom_seekbar" />
+
+</LinearLayout>

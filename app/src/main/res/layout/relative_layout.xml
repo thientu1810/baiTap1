@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+    <!-- Left View 1 -->
+    <View
+        android:id="@+id/leftView1"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="#FFFF99"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <!-- Left View 2 -->
+    <View
+        android:id="@+id/leftView2"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="#FFFF33"
+        android:layout_below="@+id/leftView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <!-- Right View 1 -->
+    <View
+        android:id="@+id/rightView1"
+        android:layout_width="225dp"
+        android:layout_height="294dp"
+        android:background="#FF9900"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <!-- Right View 2 -->
+    <View
+        android:id="@+id/rightView2"
+        android:layout_width="225dp"
+        android:layout_height="293dp"
+        android:background="#99CCCC"
+        android:layout_below="@+id/rightView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <!-- Right View 3 -->
+    <View
+        android:id="@+id/rightView3"
+        android:layout_width="225dp"
+        android:layout_height="268dp"
+        android:background="#66CC66"
+        android:layout_below="@+id/rightView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <!-- SeekBar at the bottom -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:progressDrawable="@drawable/bg_custom_seekbar"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
