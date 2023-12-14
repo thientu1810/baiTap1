@@ -16,14 +16,14 @@
         android:id="@+id/leftView1"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:background="#FFFF99" />
+        android:background="#F7FF00" />
 
     <!-- Left View 2 -->
     <View
         android:id="@+id/leftView2"
         android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:background="#FFFF33" />
+        android:background="#000000" />
 
 
 
@@ -31,7 +31,7 @@
         android:id="@+id/rightView1"
         android:layout_width="wrap_content"
         android:layout_height="127dp"
-        android:background="#FF9900" />
+        android:background="#A60000" />
 
         <!-- Right View 2 -->
 
@@ -40,13 +40,13 @@
         android:id="@+id/rightView3"
         android:layout_width="match_parent"
         android:layout_height="118dp"
-        android:background="#66CC66" />
+        android:background="#00B206" />
 
         <View
             android:id="@+id/rightView2"
             android:layout_width="match_parent"
             android:layout_height="115dp"
-            android:background="#99CCCC" />
+            android:background="#00C0C0" />
 
     <!-- SeekBar at the bottom -->
     <SeekBar

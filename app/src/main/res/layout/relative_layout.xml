@@ -13,7 +13,7 @@
         android:id="@+id/leftView1"
         android:layout_width="match_parent"
         android:layout_height="360dp"
-        android:background="#FFFF99"
+        android:background="#F7FF00"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"/>
@@ -23,7 +23,7 @@
         android:id="@+id/leftView2"
         android:layout_width="match_parent"
         android:layout_height="370dp"
-        android:background="#FFFF33"
+        android:background="#000000"
         android:layout_below="@+id/leftView1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"/>
@@ -33,7 +33,7 @@
         android:id="@+id/rightView1"
         android:layout_width="225dp"
         android:layout_height="294dp"
-        android:background="#FF9900"
+        android:background="#A60000"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"/>
@@ -43,7 +43,7 @@
         android:id="@+id/rightView2"
         android:layout_width="225dp"
         android:layout_height="293dp"
-        android:background="#99CCCC"
+        android:background="#00B206"
         android:layout_below="@+id/rightView1"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"/>
@@ -53,7 +53,7 @@
         android:id="@+id/rightView3"
         android:layout_width="225dp"
         android:layout_height="268dp"
-        android:background="#66CC66"
+        android:background="#00C0C0"
         android:layout_below="@+id/rightView2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"/>

@@ -28,10 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar myToolbar = findViewById(R.id.my_toolbar);
         setupToolbar();
 
-        // Initialize ColorViewModel with the associated ViewModelProvider
         colorViewModel = new ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())).get(ColorViewModel.class);
 
-        // Thiết lập Toolbar là ActionBar
         setSupportActionBar(myToolbar);
         seekBar = findViewById(R.id.seekBar);
         colorView1 = findViewById(R.id.leftView1);
@@ -72,11 +70,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateColors(int progress) {
         // Update the colors of the views based on the SeekBar progress
-        int color1 = Color.rgb(progress, 255, 255);
+        int color1 = Color.rgb(247, 255, progress);
         int color2 = Color.rgb(0, 0, progress);
         int color3 = Color.rgb(progress + 166, 0, 0);
-        int color4 = Color.rgb(0, 204, progress);
-        int color5 = Color.rgb(0, progress, 153);
+        int color4 = Color.rgb(progress, 178, progress+6);
+        int color5 = Color.rgb(0, 192+ progress, 192+ progress);
 
         // Find views by their IDs in the current layout
         View colorView1 = findViewById(R.id.leftView1);
@@ -123,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     private void showInformationDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Thông tin nhóm");
-        builder.setMessage("Nhóm ..., bài tập 1");
+        builder.setMessage("Nhóm 9, Bài tập 1");
 
         builder.setPositiveButton("Đóng", new DialogInterface.OnClickListener() {
             @Override
